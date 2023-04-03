@@ -216,5 +216,209 @@
         {
             Memory = null;
         }
+
+        private void button37_Click(object sender, EventArgs e)
+        {
+            if (label9.Text == "1") textBox4.Text = textBox4.Text + 1;
+            if (label9.Text == "11") textBox5.Text = textBox5.Text + 1;
+            if (label9.Text == "111") textBox6.Text = textBox6.Text + 1;
+        }
+
+        private void button36_Click(object sender, EventArgs e)
+        {
+            if (label9.Text == "1") textBox4.Text = textBox4.Text + 2;
+            if (label9.Text == "11") textBox5.Text = textBox5.Text + 2;
+            if (label9.Text == "111") textBox6.Text = textBox6.Text + 2;
+        }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+            if (label9.Text == "1") textBox4.Text = textBox4.Text + 3;
+            if (label9.Text == "11") textBox5.Text = textBox5.Text + 3;
+            if (label9.Text == "111") textBox6.Text = textBox6.Text + 3;
+        }
+
+        private void button34_Click(object sender, EventArgs e)
+        {
+            if (label9.Text == "1") textBox4.Text = textBox4.Text + 4;
+            if (label9.Text == "11") textBox5.Text = textBox5.Text + 4;
+            if (label9.Text == "111") textBox6.Text = textBox6.Text + 4;
+        }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            if (label9.Text == "1") textBox4.Text = textBox4.Text + 5;
+            if (label9.Text == "11") textBox5.Text = textBox5.Text + 5;
+            if (label9.Text == "111") textBox6.Text = textBox6.Text + 5;
+        }
+
+        private void button32_Click(object sender, EventArgs e)
+        {
+            if (label9.Text == "1") textBox4.Text = textBox4.Text + 6;
+            if (label9.Text == "11") textBox5.Text = textBox5.Text + 6;
+            if (label9.Text == "111") textBox6.Text = textBox6.Text + 6;
+        }
+
+        private void button31_Click(object sender, EventArgs e)
+        {
+            if (label9.Text == "1") textBox4.Text = textBox4.Text + 7;
+            if (label9.Text == "11") textBox5.Text = textBox5.Text + 7;
+            if (label9.Text == "111") textBox6.Text = textBox6.Text + 7;
+        }
+
+        private void button30_Click(object sender, EventArgs e)
+        {
+            if (label9.Text == "1") textBox4.Text = textBox4.Text + 8;
+            if (label9.Text == "11") textBox5.Text = textBox5.Text + 8;
+            if (label9.Text == "111") textBox6.Text = textBox6.Text + 8;
+        }
+
+        private void button29_Click(object sender, EventArgs e)
+        {
+            if (label9.Text == "1") textBox4.Text = textBox4.Text + 9;
+            if (label9.Text == "11") textBox5.Text = textBox5.Text + 9;
+            if (label9.Text == "111") textBox6.Text = textBox6.Text + 9;
+        }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+            if (label9.Text == "1") textBox4.Text = textBox4.Text + 0;
+            if (label9.Text == "11") textBox5.Text = textBox5.Text + 0;
+            if (label9.Text == "111") textBox6.Text = textBox6.Text + 0;
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            label9.Text = label9.Text + 1;
+        }
+
+        private void button28_Click(object sender, EventArgs e)
+        {
+            label9.Text = "1";
+            textBox4.Text = "";
+            textBox5.Text = "";
+            textBox6.Text = "";
+            textBox7.Text = "";
+        }
+
+        private void button38_Click(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble(textBox4.Text);
+            double b = Convert.ToDouble(textBox5.Text);
+            double c = Convert.ToDouble(textBox6.Text);
+            double d = (b * b) - (4 * a * c);
+            if (d > 0)
+            {
+                double x1 = ((-b - Math.Sqrt(d)) / (2 * a));
+                double x2 = ((-b + Math.Sqrt(d)) / (2 * a));
+                textBox7.Text = $"x1= " + x1 + "; x2= " + x2;
+            }
+            if (d < 0)
+            {
+                textBox7.Text = "Корней нет!";
+            }
+            if (d == 0)
+            {
+                double x = (-b / (2 * a));
+                textBox7.Text = $"x= " + x;
+
+            }
+        }
+
+        private void button53_Click(object sender, EventArgs e)
+        {
+            textBox8.Text = textBox8.Text + 1;
+        }
+
+        private void button52_Click(object sender, EventArgs e)
+        {
+            textBox8.Text = textBox8.Text + 2;
+        }
+
+        private void button51_Click(object sender, EventArgs e)
+        {
+            textBox8.Text = textBox8.Text + 3;
+        }
+
+        private void button50_Click(object sender, EventArgs e)
+        {
+            textBox8.Text = textBox8.Text + 4;
+        }
+
+        private void button49_Click(object sender, EventArgs e)
+        {
+            textBox8.Text = textBox8.Text + 5;
+        }
+
+        private void button48_Click(object sender, EventArgs e)
+        {
+            textBox8.Text = textBox8.Text + 6;
+        }
+
+        private void button47_Click(object sender, EventArgs e)
+        {
+            textBox8.Text = textBox8.Text + 7;
+        }
+
+        private void button46_Click(object sender, EventArgs e)
+        {
+            textBox8.Text = textBox8.Text + 8;
+        }
+
+        private void button45_Click(object sender, EventArgs e)
+        {
+            textBox8.Text = textBox8.Text + 9;
+        }
+
+        private void button43_Click(object sender, EventArgs e)
+        {
+            textBox8.Text = textBox8.Text + 0;
+        }
+
+        private void button42_Click(object sender, EventArgs e)
+        {
+            int a = Convert.ToInt32(textBox8.Text);
+            string s = "";
+            if (label12.Text == "bin")
+            {
+                while (a > 0)
+                {
+                    if (a % 2 == 0) s = "0" + s;
+                    else s = "1" + s;
+                    a /= 2;
+                }
+                textBox9.Text = $"{s}";
+            }
+            if (label12.Text == "oct")
+            {
+                textBox9.Text = Convert.ToString(a, 8);
+            }
+            if (label12.Text == "hex")
+            {
+                textBox9.Text = Convert.ToString(a, 16);
+            }
+        }
+
+        private void button44_Click(object sender, EventArgs e)
+        {
+            textBox8.Text = "";
+            textBox9.Text = "";
+            label12.Text = "_";
+        }
+
+        private void button41_Click(object sender, EventArgs e)
+        {
+            label12.Text = "bin";
+        }
+
+        private void button40_Click(object sender, EventArgs e)
+        {
+            label12.Text = "oct";
+        }
+
+        private void button39_Click(object sender, EventArgs e)
+        {
+            label12.Text = "hex";
+        }
     }
 }
